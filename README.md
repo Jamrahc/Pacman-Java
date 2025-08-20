@@ -1,7 +1,6 @@
 
 # Pac-Man Java Game
 
-![Pac-Man Java Game](https://github.com/ImKennyYip/pacman-java/blob/main/pacman-ss.png)
 
 A classic implementation of the iconic Pac-Man game using Java's AWT and Swing libraries. This project serves as both a functional game and an educational resource, demonstrating fundamental game development concepts such as game loops, collision detection, and event handling.
 
@@ -35,7 +34,7 @@ Ensure you have the following installed:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/ImKennyYip/pacman-java.git
+   git clone https://github.com/Jamrahc/Pacman-Java.git
    cd pacman-java
    ```
 
