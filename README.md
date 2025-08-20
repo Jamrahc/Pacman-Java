@@ -1,72 +1,78 @@
+
 # Pac-Man Java Game
 
-A simple implementation of the classic Pac-Man game using Java's AWT and Swing libraries. The game includes core mechanics such as player movement, ghost behavior, scoring, and level progression.
+![Pac-Man Java Game](https://github.com/ImKennyYip/pacman-java/blob/main/pacman-ss.png)
 
-## Features
+A classic implementation of the iconic Pac-Man game using Java's AWT and Swing libraries. This project serves as both a functional game and an educational resource, demonstrating fundamental game development concepts such as game loops, collision detection, and event handling.
 
-- **Classic Gameplay**: Play as Pac-Man, navigating mazes, eating pellets, and avoiding ghosts.
-- **Tile-Based Maze**: The maze is represented as a grid, with walls, pellets, and power-ups.
-- **Ghost Behavior**: The game includes four ghosts, each with a predefined movement pattern, providing a challenging experience.
-- **Scoring**: Players accumulate points by eating pellets and avoiding ghost captures.
-- **Power-Ups**: Includes special power pellets that temporarily turn the ghosts blue, allowing Pac-Man to eat them for additional points.
-- **Multiple Levels**: Players can progress through levels, each with an increasingly complex maze layout and faster ghosts.
+## 🎮 Features
 
-## Installation
+- **Classic Gameplay**: Navigate Pac-Man through a maze, eat pellets, and avoid ghosts.
+- **Tile-Based Maze**: The game world is represented as a grid, with walls, pellets, and power-ups.
+- **Ghost Behavior**: Four ghosts with distinct movement patterns add challenge.
+- **Scoring System**: Earn points by consuming pellets and power-ups.
+- **Power-Ups**: Special items that grant Pac-Man temporary abilities.
+- **Level Progression**: Advance through levels with increasing difficulty.
 
-1. Clone the repository to your local machine:
+## 🛠️ Technologies Used
+
+- **Java AWT & Swing**: For GUI components and event handling.
+- **Java 2D Graphics**: To render game elements.
+- **Timer**: To manage game updates and frame rate.
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+Ensure you have the following installed:
+
+- Java Development Kit (JDK)
+- Visual Studio Code (VS Code) or any preferred IDE
+- Git (optional, for cloning the repository)
+
+### Installation
+
+1. Clone the repository:
 
    ```bash
-   git clone https://github.com/YourUsername/pacman-java.git
-Navigate to the project directory:
+   git clone https://github.com/ImKennyYip/pacman-java.git
+   cd pacman-java
+   ```
 
-cd pacman-java
+2. Open the project in your IDE.
 
+3. Run the `App.java` file to start the game.
 
-Compile the Java files:
+## 🧩 How It Works
 
-javac PacMan.java
+### Game Loop
 
+The game operates on a continuous loop, updating the game state and rendering the screen at regular intervals. This loop handles:
 
-Run the game:
+- Player input (arrow keys)
+- Ghost movement
+- Collision detection
+- Scoring updates
+- Level transitions
 
-java PacMan
+### Game Components
 
-How to Play
+- **App.java**: The entry point of the game, setting up the main window and initiating the game loop.
+- **PacMan.java**: Contains the game logic, including movement, collision detection, and rendering.
+- **Ghost.java**: Defines the behavior and movement patterns of the ghosts.
+- **TileMap.java**: Represents the maze layout and handles map rendering.
 
-Use the arrow keys to move Pac-Man around the maze.
+### Controls
 
-Eat all the pellets to complete a level.
+- **Arrow Keys**: Move Pac-Man up, down, left, or right.
+- **Esc**: Pause or resume the game.
 
-Avoid being caught by the ghosts. If a ghost touches Pac-Man, the game will end.
+## 🔧 Future Enhancements
 
-Collect power pellets to temporarily turn ghosts blue and eat them for extra points.
+Potential improvements include:
 
-Game Controls
+- Implementing power-ups that allow Pac-Man to eat ghosts.
+- Adding sound effects and music.
+- Creating custom levels with different layouts.
+- Enhancing AI for ghost movement.
 
-Arrow Keys: Move Pac-Man (Up, Down, Left, Right)
-
-Esc: Pause the game
-
-R: Restart the game
-
-Technologies Used
-
-Java: The core programming language used to build the game.
-
-AWT: Used for handling graphics, drawing the game elements.
-
-Swing: Provides the GUI components and event handling for the game.
-
-Contributing
-
-Feel free to fork this project and submit pull requests for any improvements, bug fixes, or feature requests. To contribute:
-
-Fork the repository.
-
-Create a new branch (git checkout -b feature-name).
-
-Commit your changes (git commit -am 'Add new feature').
-
-Push to the branch (git push origin feature-name).
-
-Create a new Pull Request.
